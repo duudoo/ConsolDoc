@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www
+    ports:
+      - "8000:8000"
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: consoldoc
+      POSTGRES_USER: consoldoc
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
