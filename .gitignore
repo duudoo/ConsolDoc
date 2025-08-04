@@ -1,0 +1,40 @@
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/.phpunit.result.cache
+/.DS_Store
+.env.backup
+.env.*
+/docker-compose.override.yml
+
+# Laravel specific
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# Composer
+composer.lock
+
+# OS & Editor Files
+Thumbs.db
+.DS_Store
+*.log
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains (PhpStorm)
+.idea
+
+# Docker artifacts (optional)
+docker-compose.override.yml

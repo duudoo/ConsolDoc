@@ -1,0 +1,1 @@
+<?php return ['channels' => ['mail', 'database']];

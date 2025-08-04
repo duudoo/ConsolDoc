@@ -1,0 +1,1 @@
+<?php return ['features' => ['e_signature' => true, 'ai_assist' => true]];

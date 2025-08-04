@@ -1,0 +1,2 @@
+<?php
+// Calls individual seeders

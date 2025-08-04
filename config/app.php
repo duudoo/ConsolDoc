@@ -1,0 +1,1 @@
+<?php return ['name' => 'ConsolDoc', 'env' => env('APP_ENV', 'production')];

@@ -1,0 +1,1 @@
+<?php return ['mailers' => ['smtp' => ['host' => env('MAIL_HOST', 'smtp.mailgun.org')]]];

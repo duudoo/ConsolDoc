@@ -1,0 +1,16 @@
+{
+  "name": "duudoo/consoldoc",
+  "type": "project",
+  "description": "Contract intelligence and document automation with AI",
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^10.0",
+    "laravel/jetstream": "^3.0",
+    "livewire/livewire": "^3.0",
+    "guzzlehttp/guzzle": "^7.0.1",
+    "openai-php/client": "^0.6",
+    "doctrine/dbal": "^3.3",
+    "barryvdh/laravel-dompdf": "^2.0",
+    "barryvdh/laravel-debugbar": "^3.0"
+  }
+}
